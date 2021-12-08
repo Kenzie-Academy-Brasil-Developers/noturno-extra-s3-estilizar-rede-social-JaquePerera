@@ -32,8 +32,11 @@ header{
 	justify-content: center;
 }
 
-footer{
-
+header .LogoKenzie img{
+	display: flex;
+	width: 50px;
+	height: 50px;
+	justify-content: flex-start;
 }
 
 /*PÁGINA INICIAL*/
@@ -50,24 +53,29 @@ main{
 	}
 
 	main .profile-content .profile-info{
-
+		align-items: flex-start;
 	}
 
-	main .profile-content .profile-info ul{
-		list-style: none;
+	main .profile-content .profile-info h1{
+		display: flex;
 	}
 
 	main .profile-content .profile-info h2{
 		display: flex;
 	}
 	
-	main .profile-content .profile-info h1{
-		display: flex;
+	main .profile-content .profile-info ul{
+		list-style: none;
+		display: contents;
 	}
 
 	main .profile-content .profile-data{
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
+	}
+
+	main .profile-content .profile-data span{
+		font-weight: bold;
 	}
 
 	main .highlighted-stories{
