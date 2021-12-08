@@ -21,15 +21,17 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-
+	width: 935px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #262626;
 }
 
 /*TOPO*/
 header{
-	
+	display: flex;
+	justify-content: center;
 }
 
-/*RODAPÉ*/
 footer{
 
 }
@@ -38,14 +40,102 @@ footer{
 main{
 	
 }
+	/*CONTEÚDO SOBRE O USUÁRIO*/
 	main .profile-content{
+		display: flex;
+	}
 
+	main .profile-content .profile-photo img{
+		border-radius: 100%;
+	}
+
+	main .profile-content .profile-info{
+
+	}
+
+	main .profile-content .profile-info ul{
+		list-style: none;
+	}
+
+	main .profile-content .profile-info h2{
+		display: flex;
+	}
+	
+	main .profile-content .profile-info h1{
+		display: flex;
+	}
+
+	main .profile-content .profile-data{
+		display: flex;
+		justify-content: space-between;
 	}
 
 	main .highlighted-stories{
+		display: flex;
+	}
 
+	main .highlighted-stories ul{
+		display: flex;
+	
+	}
+	main .highlighted-stories li{
+		list-style: none;
+		
+	}
+	main .highlighted-stories li img{
+		width: 77px;
+		height: 77px;
+		border-radius: 100%;
+	}
+
+	main .highlighted-stories li figcaption{
+		padding-left: 2px;
 	}
 
 	main .profile-posts{
+		border-top: 1px solid gray;
+	}
 
+	main .profile-posts nav{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	
+	main .profile-posts nav a{
+		text-decoration: none;
+		padding: 0px 40px 0px 40px;
+	}
+
+	main .profile-posts nav a:hover{
+		border-top: 2px solid black;
+	}
+
+	main .profile-posts ul{
+		display: flex;
+		list-style: none;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	main .profile-posts img{
+		width: 293px;
+		height: 293px;
+	}
+
+
+	footer{
+		padding: 10px;
+		border-top: 1px solid gray;
+	}
+
+	footer .footer-nav{
+		display:flex;
+		justify-content: space-around;
+
+	}
+
+	footer .copyright{
+		display:flex;
+		justify-content: center;
 	}
